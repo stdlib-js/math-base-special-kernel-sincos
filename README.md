@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import kernelSincos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-sincos@deno/mod.js';
+import kernelSincos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-sincos@v0.1.1-deno/mod.js';
 ```
 
 #### kernelSincos( x, y, out, stride, offset )
@@ -76,7 +76,7 @@ v = kernelSincos( NaN, 0.0, [ 0.0, 0.0 ], 1, 0 );
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
 import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@deno/mod.js';
-import kernelSincos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-sincos@deno/mod.js';
+import kernelSincos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-sincos@v0.1.1-deno/mod.js';
 
 var x = linspace( -PI/4.0, PI/4.0, 100 );
 
