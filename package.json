@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-kernel-sincos",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simultaneously compute the sine and cosine of an angle measured in radians on the interval [-π/4, π/4].",
   "license": "Apache-2.0",
   "author": {
